@@ -1,0 +1,2 @@
+defmodule NewApp do
+end
