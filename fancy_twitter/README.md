@@ -1,6 +1,6 @@
 # FancyTwitter
 
-**TODO: Add description**
+**TODO: Add des Tcription**
 
 ## Installation
 

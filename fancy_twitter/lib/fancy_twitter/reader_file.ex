@@ -6,4 +6,7 @@ defmodule FancyTwitter.ReaderFile do
     |> Enum.filter(fn sentence -> String.length(sentence)<=140 and String.length(sentence) > 1 end)
     |> Enum.random()
   end
-end
+  end
+
+
+
