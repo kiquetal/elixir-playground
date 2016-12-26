@@ -52,7 +52,7 @@ defmodule ListEx do
 
   end
 
-  defp helperDifference([],list2,acc), do: manualReverse(acc)
+  defp helperDifference([],list2,acc), do: Enum.reverse(acc)
   defp helperDifference([head | tail ],list2,acc) do
 
     case isMemberManual(head,list2) do
